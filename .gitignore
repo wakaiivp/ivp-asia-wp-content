@@ -1,5 +1,7 @@
-#plugin ‚ð–³Ž‹
-plugins/
-#backupŠÖ˜A‚ð–³Ž‹
+plugins/*
+*/plugins/*
 backup-*/
-*-logs/
+*-*x*.png
+*media-from-ftp-tmp/
+*backwpup*/
+#*backups/
