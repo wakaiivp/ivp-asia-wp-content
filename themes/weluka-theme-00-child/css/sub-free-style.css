@@ -1,0 +1,871 @@
+/* sub-style
+各サイト特有のCSSを記述
+*/
+
+
+/*デフォルト設定変更*/
+
+html {
+    font-size: 45.0%; //スマホの倍率、PCはメディアクエリに記載
+}
+
+body {
+    font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+    color: #333333;
+    background-color: #fbfaec;
+    //background-color: #fff0bb;
+    font-size: 2rem;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    //margin: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+}
+
+#main-content {
+    padding-top: 150px; //スマホ
+    padding-bottom: 20px;
+}
+
+#main-content a:link,
+#main-content a:visited {
+    color: #EA7C00;
+    text-decoration: none;
+}
+
+#main-content a:active,
+#main-content a:hover {
+    color: #e6166e;
+    text-decoration: underline;
+}
+
+
+/* new-home */
+
+
+/*ページ内に直接jQueryにて付与*/
+
+.home-body #main {
+    background-color: #f9b552;
+    font-family: "Meiryo UI", "メイリオ", "Meiryo", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", "Osaka", sans-serif;
+}
+
+.home-top-section01 {
+    margin-top: 0px;
+    position: relative;
+}
+
+
+/*
+.home-top-img01{
+      position: absolute;
+  bottom: 20px;
+  left: 0px;
+}
+*/
+
+.home-top-section01 {
+    margin-top: 15px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.home-top-section02 {
+    background-color: #fef89a;
+    margin: 0px;
+}
+
+.home-top-section06 {
+    background-color: #351c03;
+    margin: 0px;
+}
+
+.home-top-row01 {
+    /*
+    background-image: url(/wp-content/uploads/top-img-bg.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    padding: 0px;
+    margin: 0px;
+    */
+}
+
+.city-text {
+    text-align: center;
+}
+
+.city-text-normal {
+    color: #6b3906;
+    font-size: 3.8rem;
+    font-weight: bold;
+}
+
+.city-text-white {
+    color: #fff;
+    font-size: 3.8rem;
+    font-weight: bold;
+}
+
+.city-text-sm {
+    font-size: 3.0rem;
+}
+
+.city-text-brown {
+    color: #6b3906;
+    font-size: 3.8rem;
+    font-weight: 900;
+    display: block;
+}
+
+.city-name {
+    margin: 1px 0px;
+    border-radius: 10px;
+    padding: 5px 20px;
+    display: block;
+}
+
+.city-name-normal {
+    color: #ffc800;
+    background-color: #6b3906;
+}
+
+
+/* IVPの強み＆ブリッジチームとは？ */
+
+.team-row {
+    margin: 10px 5px 20px;
+    color: #6b3906;
+}
+
+
+.team-top-subrow,
+.team-bottom-subrow {
+    margin-bottom: 0px;
+}
+
+
+.team-ttl-subclm {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    background-color: #6b3906;
+    margin-bottom: 0px;
+  /*  position: relative;*/
+}
+
+/*
+.team-ttl-subclm:before {
+    content: '';
+    position: absolute;
+    border-top: 35px solid #6a3906;
+    border-right: 40px solid transparent;
+    border-left: 40px solid transparent;
+    bottom: -33px;
+    right: 35%;
+}
+*/
+.team-ttl-text {
+    text-align: center;
+    font-size: 3.0rem;
+    margin-bottom: 0px;
+}
+
+.team-ttl-text-normal {
+    color: #fff;
+    font-weight: bold;
+    padding:20px 10px;
+}
+
+.team-top-subrow {
+    margin-top:0px;
+    background-color: #fff;
+}
+
+.team-middle-subrow {
+    background-color: #fef89a;
+}
+
+.team-middle-text {}
+
+.team-middle-text-normal {
+    font-weight: bold;
+}
+
+.team-bottom-subrow {
+    background-color: #fff;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.team-bottom-text {
+    margin: 20px 15px;
+}
+
+.team-bottom-text-normal {
+    font-weight: bold;
+}
+
+.team-bottom-img {}
+
+.team-bottom-img-normal {}
+
+.team-h4 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 15px 3px 2px 5px;
+}
+
+.team-ul {
+    margin-bottom: 20px;
+}
+
+.team-ul li{
+   list-style: outside;
+    margin-left: 20px;
+}
+
+
+.inuquiry-arrow-section {
+    position: relative;
+}
+
+.inuquiry-arrow-section:before {
+    content: '';
+    position: absolute;
+    border-top: 43px solid #f9b552;
+    border-right: 50px solid transparent;
+    border-left: 50px solid transparent;
+    bottom: -40px;
+    left: 35%;
+}
+
+.toinquiry-section {
+    background-color: #fff;
+}
+
+.inuquiry-ttl-row {
+    /*
+    text-align: center;
+             background-image:url(/wp-content/uploads/bg-inquary.png);
+        background-repeat:no-repeat;
+    background-attachment:scroll;
+*/
+}
+
+.toinquiry-ttl-text {
+    font-size: 3.0rem;
+    text-align: center;
+}
+
+.toinquiry-ttl-text-normal {
+    color: #6a3906;
+    font-weight: bold;
+}
+
+.toinquiry-tel-text {
+    text-align: center;
+}
+
+.toinquiry-tel-text-normal {
+    color: #6a3906;
+}
+
+.toinquiry-tel-text .telinfo {
+    color: #e60012;
+    font-size: 3.5rem;
+    font-weight: bold;
+    letter-spacing: 0rem;
+    background: rgba(0, 0, 0, 0) url(/wp-content/uploads/tel-logo.png) no-repeat scroll 0.2em 0.3em;
+    margin: 1rem 0 0;
+    padding: 0.6rem 0rem 0 4.5rem;
+}
+
+.toinquiry-tel-text .openinfo {
+    font-size: 1rem;
+}
+
+.toinquiry-btn-text {
+    text-align: center;
+}
+
+.home-subttl-row {
+    background-color: #351c03;
+    margin: 0px;
+}
+
+.home-subttl-text {
+    font-size: 4.0rem;
+    text-align: center;
+}
+
+.home-subttl-text-normal {
+    color: #fff;
+    font-weight: bold;
+}
+
+.charm-text {}
+
+.charm-text-normal {
+    color: #6b3906;
+    font-weight: bold;
+}
+
+
+/*円フィリピン・オフ開発の６つの魅力*/
+.charm-ul li {
+    list-style: none;
+    background-color: #FEF89A;
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 20px 5px;
+    border-radius: 120px;
+    margin-bottom: 10px;
+-webkit-border-radius: 120px;
+-moz-border-radius: 120px;
+}
+
+.charm-text-min {
+        font-size: 1.5rem;
+}
+
+.charm-text-sm {
+        font-size: 2.0rem;
+}
+
+.charm-text-md {
+    font-size: 2.5rem;
+}
+
+.sixcharm-section ,.inuquiry-arrow-section{
+     padding: 0.5rem 0em;
+}
+
+
+.sug-text {
+    text-align: center;
+    padding: 50px 10px;
+    border-radius: 50%;
+}
+
+.sug-text-nromal {
+    background-color: #FEF89A;
+    color: #6b3906;
+    font-weight: bold;
+}
+
+.sug-sm {
+    font-size: 2.0rem;
+}
+
+.sug-lg {
+    font-size: 2.5rem;
+}
+
+.flow-head-text {
+    font-size: 3.0rem;
+    padding: 20px;
+    margin: 0;
+}
+
+.flow-head-text-skin {
+    color: #fff;
+    font-weight: bold;
+    text-align: left;
+    background-color: #0a6652;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.flow-head-text-only {
+    color: #fff;
+    font-weight: bold;
+    text-align: left;
+    background-color: #0a6652;
+    border-radius: 6px;
+}
+
+.flow-head-text-only h3 {
+    margin: 0px;
+}
+
+.flow-body-text {
+    border-right: 2px solid #0a6652;
+    border-bottom: 2px solid #0a6652;
+    border-left: 2px solid #0a6652;
+    padding: 30px;
+    margin: 0;
+}
+
+.flow-body-text-skin {
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.text-left {
+    text-align: left;
+}
+
+
+/*table*/
+
+
+/*テーブルをスマホ時に構造を変化*/
+
+.tbl-skin th {
+    background: #fee17d;
+}
+
+
+/*スマホ時のみテーブル構造変化(最初にblockをかけると上書きしてテーブルに戻させないため、特別に記載)*/
+
+@media only screen and (max-width:767px) {
+    .tbl th,
+    .tbl td {
+        width: 100%;
+        display: block;
+        border-top: none;
+    }
+}
+
+
+/* end.table*/
+
+.globalimg-section {
+    background-color: #351c03;
+}
+
+.map-section-skin {}
+
+.map-section .weluka-content {
+    margin-bottom: 0px;
+}
+
+
+/*end.map*/
+
+
+/* price */
+
+.img-labo {
+    padding: 10px 0px;
+}
+
+.strong-impact {
+    font-size: 160%;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+    color: #c10000;
+}
+
+.tbl-price {
+    border: 1px #E3E3E3 solid;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.tbl-price-red {
+    float: left;
+}
+
+.tbl-price-blue {
+    float: none;
+}
+
+.tbl-price th {
+    padding: 10px;
+    border: #E3E3E3 solid;
+    border-width: 0 0 1px 1px;
+    font-weight: bold;
+    line-height: 120%;
+    text-align: center;
+}
+
+.tbl-price-red th {
+    background: #fbc9bc;
+}
+
+.tbl-price-blue th {
+    background: #a5dfde;
+}
+
+.tbl-price td {
+    padding: 10px;
+    background: #fff;
+    border: 1px #E3E3E3 solid;
+    border-width: 0 0 1px 1px;
+    text-align: center;
+}
+
+.tbl-price .text-price {
+    text-align: right;
+}
+
+.tbl-price .itam-name {
+    text-align: center;
+    background-color: azure;
+    border-bottom: 3px #E3E3E3 double;
+}
+
+.tbl-price .itam-name td {
+    font-weight: bold;
+    background-color: azure;
+}
+
+.tbl-price .total {
+    border-bottom: 3px #E3E3E3 double;
+}
+
+.tbl-price .total td {
+    font-weight: bold;
+    color: #c10000;
+}
+
+.list-note ul {
+    margin: 5px 0px 20px 20px;
+}
+
+.list-note li {
+    padding: 10px 0px 10px 30px;
+    list-style: none;
+    counter-increment: number;
+    text-indent: -3rem;
+}
+
+.list-note li:before {
+    content: counter(number) "，";
+}
+
+
+/* end.price */
+
+
+/*work*/
+
+.company-section {
+    padding-top: 0px;
+}
+
+.company-section-skin {}
+
+.work-ex-clm {
+    padding: 20px;
+}
+
+.work-ex-clm-skin {}
+
+.work-ex-subrow {
+    border: 3px solid #0a6652;
+}
+
+.work-ex-subrow-skin {
+    border-radius: 6px;
+}
+
+
+/* end.work*/
+
+
+/* story */
+
+.story-topimg-section {
+    margin-top: 10px;
+    padding-left: 10px;
+    /*横ズレ対策*/
+    padding-right: 10px;
+    /*横ズレ対策*/
+}
+
+.story-topimg-section-skin {
+    background-image: url(/wp-content/uploads/topbg_company.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.story-topimg-text {
+    font-size: 3.0rem;
+    padding: 0px 0px 0px 20px;
+}
+
+.story-topimg-text-skin {
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+}
+
+.story-ttl {
+    font-size: 2.2rem;
+    line-height: 1.4rem;
+}
+
+.story-ttl-skin {}
+
+.story-main-section {}
+
+.story-main-skin {}
+
+.story-main-section h4 {
+    font-size: 2.2rem;
+    padding: 3px 12px;
+    margin: 20px 0 5px 0;
+}
+
+.story-main-section-skin h4 {
+    margin-top: 30px;
+    border-left: 6px solid #f59000;
+    font-weight: bold;
+}
+
+.story-main-section .strong_nor {
+    color: #333;
+    font-weight: bold;
+}
+
+.story-main-section .strong01 {
+    color: #c10000;
+    font-weight: bold;
+}
+
+.story-main-section ul {
+    margin: 20px 20px;
+}
+
+.story-main-section li {
+    padding: 10px 0px 10px 30px;
+    list-style: none;
+    counter-increment: number;
+    text-indent: -1.5em;
+}
+
+.story-main-section li:before {
+    content: counter(number) '. ';
+}
+
+.story-nextlink {
+    text-align: center;
+}
+
+.story-nextlink-skin {}
+
+.story-list-section {
+    padding-left: 10px;
+    /*横ズレ対策*/
+    padding-right: 10px;
+    /*横ズレ対策*/
+}
+
+.story-list-section-skin {}
+
+.story-list-text {}
+
+.story-list-text li {
+    list-style: none;
+}
+
+
+/* end.story */
+
+
+/*問い合わせ*/
+
+
+/*
+.quest-section {
+    margin-top: 70px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.quest-section-skin {}
+*/
+
+
+/*header*/
+
+#weluka-main-header .header-section {
+    padding-bottom: 0px;
+}
+
+.header-section-skin {
+    /*background-color: #7f7f7f;*/
+    background: url(/wp-content/uploads/header_bg01.png);
+}
+
+#weluka-main-header .header-under-section {
+    margin-top: 0px;
+    padding-bottom: 10px;
+}
+
+
+/*打つ消すためid指定 */
+
+.header-subtitle {
+    margin-top: 5px;
+}
+
+.header-subtitle-sikn {
+    font-size: 1.5rem;
+    color: #fff;
+    // display:none;
+}
+
+.header-section .weluka-img {
+    margin-bottom: 0px;
+}
+
+.navbar-brand {
+    width: 82%;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+}
+
+.menu-tel {
+    text-align: center;
+}
+
+.menu-tel-sm {
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.menu-tel-lg {
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.navbar-nav a {
+    color: #fff;
+}
+
+.navbar-nav a:hover,
+.navbar-nav a:focus {
+    color: #333;
+}
+
+
+/* end.問い合わせ*/
+
+
+/*footer*/
+
+.footer-section {}
+
+.footer-section-skin {
+    background-color: #333;
+    color: #fff
+}
+
+
+/* 768px以上 */
+
+@media (min-width: 768px) {
+    html {
+        font-size: 62.5%;
+    }
+    #main-content {
+        padding-top: 100px;
+    }
+    .home-top-section01 {
+        margin-top: 20px;
+    }
+    .inuquiry-arrow-section:before {
+        left: 45%;
+    }
+    .toinquiry-tel-text {
+        text-align: right;
+    }
+    .toinquiry-btn-text {
+        text-align: left;
+    }
+    .toinquiry-ttl-text {
+        font-size: 3.5rem;
+    }
+    .toinquiry-tel-text .telinfo {
+        letter-spacing: 0.5rem;
+    }
+    .toinquiry-tel-text .openinfo {
+        font-size: 1.4rem;
+    }
+
+    .team-ttl-subclm:before {
+        right: 50%;
+    }
+    /*円フィリピン・オフ開発の６つの魅力*/
+    .charm-ul li {
+        list-style: none;
+        display: inline-block;
+        width: 30%;
+        padding: 60px 5px;
+        border-radius: 120px;
+        /* 
+-webkit-border-radius: 250px;
+-moz-border-radius: 250px;
+     */
+    }
+    .city-text-brown,
+    .city-name {
+        display: inline;
+    }
+    .step-subrow-middle {
+        padding: 10px 20px;
+    }
+    .tbl th {
+        width: 200px;
+        padding: 12px 12px 12px 24px;
+        text-align: left;
+        border-top: 1px solid #cfa102;
+        border-bottom: 1px solid #cfa102;
+        border-left: 1px solid #cfa102;
+    }
+    .tbl td {
+        padding: 12px 12px 12px 24px;
+        text-align: left;
+        border: 1px solid #cfa102;
+    }
+    .map-section {
+        margin-top: 5px;
+        margin-bottom: 20px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    /* header */
+    .nav>li {
+        font-size: 70%;
+        border-right: 1px solid #fff;
+    }
+    .nav>li:last-child {
+        border: 0;
+    }
+    .nav>li>a {
+        margin-right: 5px;
+        padding: 1px 5px;
+    }
+}
+
+.hr-price {
+    margin-left: 35%;
+    font-size: 120%;
+}
+
+
+/* 1200px以上 */
