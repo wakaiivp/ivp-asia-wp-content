@@ -4,4 +4,4 @@ backup-*/
 *-*x*.png
 *media-from-ftp-tmp/
 *backwpup*/
-#*backups/
+*backups/
